@@ -5,6 +5,7 @@
     <title>AilenOjeda-Porfolio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon" />
@@ -44,13 +45,14 @@
       </a>
       <button
         type="button"
-        class="navbar-toggler"
+        class="navbar-toggler "
         data-toggle="collapse"
         data-target="#navbarCollapse"
+     
       >
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
       </button>
-      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+      <div class="collapse navbar-collapse px-lg-4" id="navbarCollapse">
         <div class="navbar-nav m-auto py-0">
           <a href="#home" class="nav-item nav-link active">Home</a>
           <a href="#about" class="nav-item nav-link">About</a>
@@ -64,53 +66,47 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Header Start -->
-    <div
-      class="container-fluid d-flex align-items-center mb-5 py-5 home"
-      id="home"
-    >
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Títulos a la izquierda -->
-          <div class="col-lg-7 text-center text-lg-left">
-            <h1
-              class="display-1 text-uppercase ailen animate__animated animate__bounceInLeft"
-              style="-webkit-text-stroke: 1px #dee2e6"
-            >
-              AILEN
-            </h1>
-            <h1
-              class="typed-text-output d-inline font-weight-lighter text-white"
-              style="font-family: 'Arial', sans-serif"
-            ></h1>
-            <div class="typed-text d-none">
-              Software Developer, Web Developer, Front End Developer
-            </div>
-            <div
-              class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5"
-            >
-              <a
-                href="https://drive.google.com/uc?export=download&id=1HukLFPPQtjMygV3_qOtNifihNtlHxpEh"
-                class="btn btn-outline-primary mr-5"
-                >Download CV</a
-              >
-            </div>
-          </div>
-
-          <!-- Imagen a la derecha con borde redondeado usando Bootstrap -->
-          <div class="col-lg-4 px-4 pl-lg-0 pb-4 pb-lg-0 text-lg-right">
-            <img
-              class="img-fluid rounded"
-              src="img/portada2.png"
-              alt=""
-              style="min-height: 90vh"
-            />
-          </div>
+  <!-- Header Start -->
+<div class="container-fluid d-flex align-items-center mb-5 py-5 home" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Títulos a la izquierda -->
+      <div class="col-lg-7 text-center text-lg-left">
+        <h1
+          class="display-1 text-uppercase ailen animate__animated animate__bounceInLeft"
+          style="-webkit-text-stroke: 1px #dee2e6"
+        >
+          AILEN
+        </h1>
+        <h1
+          class="typed-text-output d-inline font-weight-lighter text-white"
+          style="font-family: 'Arial', sans-serif"
+        ></h1>
+        <div class="typed-text d-none">
+          Software Developer, Web Developer, Front End Developer
+        </div>
+        <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1HukLFPPQtjMygV3_qOtNifihNtlHxpEh"
+            class="btn btn-outline-primary mr-5"
+            >Download CV</a
+          >
         </div>
       </div>
-    </div>
 
-    <!-- Header End -->
+      <!-- Imagen a la derecha con borde redondeado usando Bootstrap -->
+      <div class="col-lg-4 px-4 pl-lg-0 pb-4 pb-lg-0 text-lg-right d-none d-md-block">
+        <img
+          class="img-fluid rounded"
+          src="img/portada2.png"
+          alt=""
+          style="min-height: 90vh"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Header End -->
 
     <!-- About Start -->
     <div class="container-fluid py-5" id="about">
@@ -197,7 +193,7 @@
             Quality
           </h1>
           <h1 class="position-absolute text-uppercase titulos">
-            Education & Expericence
+            Information
           </h1>
         </div>
         <div class="row align-items-center">
